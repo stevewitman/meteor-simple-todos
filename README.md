@@ -1,3 +1,3 @@
-Meteor.com tutorial
+# Meteor.com tutorial
 
-live demo at simple-todos-sw.meteor.com
+[Live Demo] (simple-todos-sw.meteor.com)

@@ -123,3 +123,44 @@ header .hide-completed {
     padding-bottom: 5px;
   }
 }
+
+.avatar {
+
+    /* make a square container */
+    width: 100px;
+    height: 100px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+
+
+    -webkit-transition:width 200ms linear 50ms, height 200ms linear 50ms;
+    transition:width 200ms linear 50ms, height 200ms linear 50ms;
+
+}
+.avatar:hover {
+
+    /* make a square container */
+    width: 200px;
+    height: 200px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+
+    -webkit-transition:width 200ms linear, height 200ms linear;
+    transition:width 200ms linear, height 200ms linear;
+
+
+}
